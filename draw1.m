@@ -1,13 +1,13 @@
 %% SIMULATION OF ELECTROPERMANAENT MAGNET 
 function [force]=draw1(X)
-nd_t=X(1);
-nd_h=X(2);
-al_w=X(3);
-p_h=X(4);
-c_t=X(5);
-c_h=X(6);
-wp_w=X(7);
-wp_h=X(8);
+nd_t=X(1); % Thickness of NdFeB magnet
+nd_h=X(2); % Height of NdFeB magnet
+al_w=X(3);  % Thickness of Alnico magnet
+p_h=X(4);   %Height of Pole piece
+c_t=X(5);   %Case Thickness
+c_h=X(6);   %Case Height
+wp_w=X(7);  % Width of the workpiece
+wp_h=X(8);  % Workpiece Height
     
 openfemm;
 newdocument(0);
